@@ -35,6 +35,6 @@ python3 -m http.server 4173 --directory dist
 
 build وجود فایل‌ها، لینک‌های محلی، placeholderهای حل‌نشده، متادیتای پایهٔ سئو، `noindex` و JSON-LD را بررسی می‌کند و `dist/` را از نو می‌سازد. تصویر پیش‌فرض اشتراک‌گذاری `site/assets/og-image.jpg` است.
 
-فایل‌های انتشار آماده هستند؛ تا زمان push و اجرای موفق Actions، این پروژه روی GitHub Pages منتشر نشده است.
+ریپوی انتشار: [mohsensalare/ginger-coming-soon](https://github.com/mohsensalare/ginger-coming-soon). دامنهٔ تنظیم‌شده `gingerqa.com` است و متغیر `SITE_URL` برابر `https://gingerqa.com` قرار دارد. انتشار خودکار GitHub Actions فعال است؛ `noindex` در هر build حفظ می‌شود.
 
 مرجع workflow: [مستندات رسمی GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
