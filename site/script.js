@@ -60,6 +60,7 @@
     const locale = document.querySelector('meta[property="og:locale"]');
     if (locale) locale.content = language === 'ar' ? 'ar_QA' : 'en_QA';
     updateCount();
+    window.dispatchEvent(new Event("ginger:language"));
     if (updateUrl) {
       try {
         const url = new URL(location.href);

@@ -91,3 +91,23 @@ html[lang=ar] .footer-nav > a > span[aria-hidden] { transform: scaleX(-1); }
   .footer-place { font-size: 21px; }
   html[lang=ar] .footer-place { font-size: 24px; }
 }
+
+.hero-secondary{display:flex;align-items:center;gap:9px;width:max-content;min-height:44px;margin-top:10px;color:var(--green);font-size:13px;text-decoration:underline;text-underline-offset:5px}html[lang=ar] .hero-secondary{font-size:16px}
+
+/* Keep the mobile story compact while preserving readable type and food detail. */
+@media(max-width:600px){
+  .hero{gap:26px;padding-block:16px 36px}
+  .hero-art{height:clamp(290px,82vw,380px)}
+  .hero-footnote{margin-top:12px}
+  .taste-section{padding-block:40px 36px}
+  .section-heading h2,.idea-copy h2,.sharing-copy h2{font-size:36px}
+  .taste-grid{row-gap:24px}
+  .idea-section{padding-block:32px}
+  .idea-inner{gap:27px}
+  .ingredients-photo{height:260px}
+  .sharing-section{gap:23px;padding-block:38px 42px}
+  .sharing-photos{height:263px}
+  .sharing-main{height:240px}
+  .sharing-detail{width:130px;height:110px;bottom:-1px;border-width:5px}
+  .soon-inner{padding-block:36px}
+}
