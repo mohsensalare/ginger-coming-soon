@@ -1,4 +1,4 @@
-# Ginger — Coming Soon
+# Ginger — Coming Soon / قريباً
 
 لندینگ استاتیک با HTML، CSS و JavaScript؛ بدون npm، فریم‌ورک یا اطلاعات حساس کسب‌وکار. فایل‌های قابل انتشار فقط در `site/` قرار دارند.
 
@@ -38,3 +38,12 @@ build وجود فایل‌ها، لینک‌های محلی، placeholderهای 
 ریپوی انتشار: [mohsensalare/ginger-coming-soon](https://github.com/mohsensalare/ginger-coming-soon). دامنهٔ تنظیم‌شده `gingerqa.com` است و متغیر `SITE_URL` برابر `https://gingerqa.com` قرار دارد. انتشار خودکار GitHub Actions فعال است؛ `noindex` در هر build حفظ می‌شود.
 
 مرجع workflow: [مستندات رسمی GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+
+## لندینگ دو زبانه — ۲۹ اکتبر ۲۰۲۶
+
+نسخهٔ بازطراحی‌شده برای معرفی Ginger در قطر، با محتوای انگلیسی و عربی، فونت عربی محلی و چیدمان RTL. زبان پیش‌فرض آدرس اصلی همیشه انگلیسی است. انتخاب زبان با دکمه در آدرس صفحه ثبت می‌شود؛ `?lang=en` و `?lang=ar` زبان لینک را مشخص می‌کنند. انتخاب‌های قدیمی localStorage روی زبان پیش‌فرض اثر ندارند.
+
+رنگ‌های برند حفظ شده‌اند: کرم `#fffaf0`، قهوه‌ای `#49331e`، زرد `#ffda59` و زیتونی `#53603b`. تصاویر جدید مجبوس، فطور عربی، رپ مرغ، مواد اولیه و سالاد برای معرفی بصری هستند؛ گالری هنوز منوی قابل سفارش نیست. فیلترهای وعده‌ها نمونه‌های تصویری را مرور می‌کنند.
+
+پیش‌نمایش بعد از build: `http://localhost:4173/?lang=en` یا `http://localhost:4173/?lang=ar`. این تغییرات به‌تنهایی به معنی push یا انتشار روی دامنهٔ اصلی نیستند.
